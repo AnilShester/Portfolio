@@ -26,7 +26,6 @@ body {
 .nav-ul {
   width: 50%;
   display: flex;
-
   align-items: center;
   justify-content: space-evenly;
 }
@@ -110,4 +109,70 @@ body {
   letter-spacing: 1px;
   padding: 20px;
   text-transform: capitalize;
+}
+
+.contact {
+  display: grid;
+  justify-content: center;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f5f5e9;
+  letter-spacing: 1px;
+  margin-top: 100px;
+}
+
+.contact-head {
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.contact-p {
+  font-size: 20px;
+  padding: 20px;
+  font-style: italic;
+}
+
+.socials {
+  margin: 50px 0 150px 0;
+}
+
+.socials-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+  font-size: 30px;
+  color: #f5f5e9;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.fa-brands {
+  padding: 10px;
+}
+
+.social-li {
+  padding: 10px;
+}
+
+.fa-solid {
+  padding: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #a2465f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: #f5f5e9;
+  border-top: 1px solid #f5f5e9;
 }

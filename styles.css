@@ -9,6 +9,9 @@ body {
   align-items: center;
   color: #f3e7d9;
   height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo {
@@ -60,5 +63,51 @@ body {
   margin-top: 20px;
   font-size: 30px;
   font-weight: 200;
+  text-transform: capitalize;
+}
+
+.projects {
+  background-color: #a2465f;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header {
+  font-size: 40px;
+  color: #f5f5e9;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.project-grid {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-tile {
+  width: 30%;
+  height: 350px;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.project-img {
+  height: 90%;
+  width: 100%;
+}
+
+.project-head {
+  background-color: #924727;
+  color: #f5f5e9;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 20px;
   text-transform: capitalize;
 }
